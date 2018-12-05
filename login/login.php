@@ -21,30 +21,27 @@
           </div>
     
     <section class="login">
-        <form action="" method="post" enctype="multipart/form-data">
-        <input class="input" type="text"  placeholder="E-mail:">
+        <form action="Principal.php" method="post" enctype="multipart/form-data">
+        <input class="input" type="text" name="email" placeholder="E-mail:">
         
 
-        <input class="" type="password" placeholder="Senha">
+        <input class="" type="password" name="senha" placeholder="Senha">
         
-       <button class="btn btn3">Acessar</button>
+       <button class="btn btn3" type="submit">Acessar</button>
         <h4><a href="">Esqueceu a sua palavra-passe?</a></h4>
         </form>
 
          
     </section >
     <section class="cadastrar">
-      <form id="cadastrar" action="" method="post" enctype="multipart/form-data">
-        <input class="input" type="text" id="nome" placeholder="Nome usúario:">
-        <input class="input" type="text" id="email" placeholder="Email:">
-        <input class="" type="text"  id="nome" placeholder="Código PCO:">
-        <input class="" type="password"  placeholder="Senha:">
-        <input class="" type="password"  placeholder="confirmar senha:">
+      <form id="cadastrar" action="apresentacao/verificacao.php" method="post" enctype="multipart/form-data">
+        <input class="input" type="text" id="nome" name="nome" placeholder="Nome usúario:">
+        <input class="input" type="email" id="email" name="email" placeholder="Email:">
+        <input class="" type="text"  id="codigopco" name="codigopco" placeholder="Código PCO:">
+        <input class="" type="password" name="senha" placeholder="Senha:">
+        <input class="" type="password" name="confirmaSenha" placeholder="confirmar senha:">
           
-       
-            
-            
-       <button class="btn btn3" type="submint" id="btn3">Acessar</button>
+       <button class="btn btn3" type="submint" id="cadatrar" name="envair-formulario">Acessar</button>
 
         </form>
 
@@ -54,4 +51,5 @@
 </div>
 <script src="js/jquery-3.3.1.min.js"></script>
  <script src="js/menu.js"></script>
+<script src="js/verificacao.js"></script>
 
