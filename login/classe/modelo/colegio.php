@@ -1,7 +1,7 @@
 
 
 <?php
-include_once("pessoa.php");
+include_once("../../modelo/classe/pessoa.php");
 
 class Colegio extends Pessoa{
 	private $id_colegio;

@@ -6,8 +6,7 @@
               <h2>ASSIM FICA MAIS FÁCIL!</h2>
               <P>O PCO NO TELEMÓVEL OU NO COMPUTADOR</P>
                <P class="des">Faça já a escrição e começa a pagar as propinas dos seus Candengues</P>
-               <div class="pco"></div>
-              <h1>PCO</h1>
+              
       </div>
       <div class="infor-img">
            <img src="../img/pco.png">
@@ -34,7 +33,7 @@
          
     </section >
     <section class="cadastrar">
-      <form id="cadastrar" action="apresentacao/verificacao.php" method="post" enctype="multipart/form-data">
+      <form id="cadastrar" action="classe/apresentacao/verificacao.php" method="post" enctype="multipart/form-data">
         <input class="input" type="text" id="nome" name="nome" placeholder="Nome usúario:">
         <input class="input" type="email" id="email" name="email" placeholder="Email:">
         <input class="" type="text"  id="codigopco" name="codigopco" placeholder="Código PCO:">

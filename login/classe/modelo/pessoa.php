@@ -1,16 +1,15 @@
 <?php
 
 class Pessoa{
-	protected $codigo;
-	protected $nome;
-	protected $sexo;
-	protected $apelido;
-	protected $data_nascimento;
-	protected $email;
-	protected $codigopco;
-	protected $senha;
-	protected $estado_civel;
-	protected $numeroBI;
+	private $codigo;
+	private $nome;
+	private $sexo;
+	private $apelido;
+	private $data_nascimento;
+	private $email;
+	private $codigopco;
+	private $estado_civel;
+	private $numeroBI;
 	
 	
 	
@@ -20,7 +19,9 @@ class Pessoa{
 	{
 		$this->SetCodigo($codigo);
 		$this->SetNome($nome);
+		
 		$this->SetEmail($email_usuario);
+		
 		$this->SetSexo($sexo);
 		$this->SetApelido($apelido);
 		$this->SetDataNascimento($data_nascimento);
@@ -72,10 +73,10 @@ class Pessoa{
 	
 	///email set e get
 	public  function SetEmail($valor){
-		$this->email_usuario= $valor;
+		$this->email= $valor;
 	}
 	public  function GetEmail(){
-		return $this->email_usuario;
+		return $this->email;
 	}
 	//codigopco
 	public  function SetCodigopco($valor){

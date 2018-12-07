@@ -1,0 +1,36 @@
+
+
+.topo{
+   background-color: black;
+     width: 100%;
+     height: 100px;
+    position: relative;
+}
+.topo .form-control{
+  position: absolute;
+  display: flex;
+    margin-top: 2%;
+    margin-left: 70%;
+     width: 20%;
+   
+}
+.btn {
+    position: absolute;
+    display: flex;
+    margin-left: 90%;
+     width: 8%;
+     top: 24px;
+    left: 1.5%;
+    background-color: blue;
+}
+.container{
+    display: flex;
+}
+
+footer {
+    background-color: black;
+    width:100%;
+}
+
+
+
