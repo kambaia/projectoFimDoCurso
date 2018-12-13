@@ -11,7 +11,7 @@
     include_once("../dal/conexao.php");
     include_once("../dal/DalUsuario.php");
    
-
+/*
     if(isset($_POST['envair-formulario'])){
 	 $codigo = 0;	
 	 $nome    = $_POST['nome'];	
@@ -23,31 +23,45 @@
 	 $status =  1;
 	 $id_cliente = 1;
 	 $id_colegio = 1;
-	 
-		 
-	        $con = new Conexao();
-		
-		    $dalusuario= new DalUsuario($con);
-		    $usuario = new Usuario($codigo, $nome, $email, $codigopco, $senha, $NivelAcesso, $status, $id_cliente, $id_colegio);
-		    $dalusuario->InserirUsuario($usuario);
-		    
-		    echo "<br>";
-			 echo "<br>";
-			 echo "<br>";
-		    var_dump($usuario);
-		     
-		    echo   "Cadastro feiro com sucesso". "<br>";
 		
 		
-	 if($confirmaSenha==$senha){
-			 echo "O nome é: "  . $usuario->GetNome() ."<br>";  
-			  echo "O email: :"	. $usuario->GetEmail() ."<br>";
-			  echo "O codigo de identificacao é:" . $usuario->GetCodigopco(). $codigopco ."<br>";
-
-			  echo "A senha é:"  .$usuario->GetSenha()."<br>";
-			  echo "Nivel de acesso:"	.$usuario->GetNivelAcesso()."<br>";
-			  echo "stutus:"	.$usuario->GetStatus()."<br>";
+		if(isset($_POST['login'])){
+			$email   = $_POST['email'];
+			$senha=  $_POST['senha'];
+			
+			if($email ==''){
+				
+				echo "<span>Campo vazio! Por favor preencha com o seu email</span>";
+			}
 		}
+		
+		     $usuario->SetNome("Pedro Manuel");
+			$usuario->SetEmail("pedro13@gmail.com");
+            $usuario->SetCodigopco("1234" );
+            $usuario->SetSenha("1234");
+            $usuario->SetNivelAcesso(1);
+            $usuario->SetStatus(1);
+            $usuario->SetIdCliente(1);
+            $usuario->SetidCcolegio(1);
+            $usuario->SetId_usuario(21);
+
+	
+	 */
+
+		     
+			
+		    
+		    
+
+          
+
+          
+
+
+
+	
+		
+	
      
         
 	  //$obj = new Usuario();
@@ -68,8 +82,8 @@
       }
 		echo  "O nome é: ". $obj->GetNome();
 		
-		*/
-
-  }
-        ?>
 		
+
+  }*/
+        ?>
+<br>

@@ -17,14 +17,20 @@ body{
     text-align: center;
     background: #fff;
     width: 100%;
-     background-color: #fff;
+     background-color: rgba(0,0,0,0.5);
      height: 200px;
     box-shadow: 1px 0px 10px rgba(0,0,0,0.5);
 }
 
 .cabecalho{
-   
+    background-color: #fff;
 } 
+.cabecalho img  {
+    width:150px;
+   
+    float: left;
+    margin-left: 40px;
+    }
 .sub-nav{
     background: #fff;
     height: 50px;
@@ -46,10 +52,15 @@ body{
 
 .nav{
     
-    background: #2f6fd6;
+ background-color: #52627c;
     height: 60px;
-    margin: 3.8% 0;
+    margin: 1.8% 0;
+    width: 100%;
     box-shadow: 0 2px 0px #000;
+    border-bottom: #fff;
+    float: right;
+
+   
     
 }
 .nav ul li{
@@ -57,6 +68,7 @@ body{
     display: inline-block;
     height: 60px;
     padding: 15px 20px;
+    
     
     
     

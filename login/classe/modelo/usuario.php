@@ -11,7 +11,7 @@ class Usuario {
 	private $id_colegio;
 	private $email_usuario;
 	
-	function __construct($id_usuario=0, $nome_usuario="", $email_usuario="", $codigopco=0,  $senha = "",  $nivel_acesso=0, $status=0, $id_colegio=0, $id_cliente=0){
+	function __construct($id_usuario=0, $nome_usuario="", $email_usuario="", $codigopco="",  $senha = "",  $nivel_acesso=0, $status=0, $id_colegio=0, $id_cliente=0){
 		
 		$this->SetId_usuario($id_usuario);
 		

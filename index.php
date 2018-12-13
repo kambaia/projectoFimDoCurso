@@ -7,7 +7,7 @@
                   <a class="home-nava" href="/projectoFimDoCurso/login/login.php">Menu</a>
                   
               </nav>
-            <div class="logo"><h2>PCO</h2></div>
+            <div class="logo"><h2><img src="img/logo1.png"></h2></div>
             <nav class="nav">
               <ul class="menus">
                   <li><a class="page" href="index.php">Home</a></li>
